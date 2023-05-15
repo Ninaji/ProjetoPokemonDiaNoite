@@ -8,11 +8,11 @@ botaoAlterarTema.addEventListener("click", () => {
     const modoEscutoEstaAtivo = body.classList.contains("modo-escuro")
     if(modoEscutoEstaAtivo){
         body.classList.remove("modo-escuro");
-        imagemBotaoTrocaDeTema.setAttribute("src", "/src/images/sun.png");
+        imagemBotaoTrocaDeTema.setAttribute("src", "./src/images/sun.png");
     }
     else{
         body.classList.add("modo-escuro");
-        imagemBotaoTrocaDeTema.setAttribute("src", "/src/images/moon.png");
+        imagemBotaoTrocaDeTema.setAttribute("src", "./src/images/moon.png");
     }
     
     
